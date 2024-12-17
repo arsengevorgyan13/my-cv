@@ -1,0 +1,66 @@
+BasicInfo:
+  FirstName: Арсен
+  LastName: Геворгян
+  Photo: avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +7987712345
+    - Icon: fas fa-envelope
+      Info: arsengevorgyanpgtu@gmail.com
+    - Icon: fas fa-map-marker-alt
+      Info: Yoshkar-Ola, Mari El, Russia
+
+Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Experience:
+  - Employer: OmegaR
+    Place: Yoshkar-Ola
+    Positions:
+      - Title: Android-разработчик
+        Date: Июль 2024 - Июль 2024
+        Details:
+          - Проходил учебную практику после 2 курса
+          - Разработал приложение для бегуна на Kotlin, которое считывает данные с GPS, показывает проойденный маршрут и ведет статистику по маршруту(время, расстояние, сожженные калории)   
+        Badges: ['Kotlin', 'Jetpack Compose', 'OOP']
+
+Education:
+  - Course: Факультет информатики и вычислительной техники | Программная инженерия
+    Place: ПГТУ
+    Date: 2022 - 2026
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML
+      - Javascript
+      - CSS
+      - SQL
+      - C++
+      - Kotlin
+      - Golang
+  - Family: Frameworks
+    Items:
+      - Django
+      - Hugo
+      - Jetpack Compose
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Visual Studio Code
+      - Visual Studio
+      - Android Studio
+
+Languages:
+  - Name: Russian
+    Level: Native
+  - Name: English
+    Level: B2
+
+Interests:
+  - Видеоигры
+  - Спорт
+  - Фильмы
+  - Общение с людьми
+  - Программирование
