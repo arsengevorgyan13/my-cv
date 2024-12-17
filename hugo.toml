@@ -1,4 +1,4 @@
-baseURL = 'https://yourusername.github.io/my-cv/'
+baseURL = 'https://arsengevorgyan13.github.io/my-cv/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "almeida-cv"
