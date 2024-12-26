@@ -21,7 +21,6 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env: # переменные окружения
@@ -48,15 +47,12 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production 
-        # очистка кеша
-        # минимизация файлов для улучшения производительности
-        # установка базового URL для сайта
         run: |
           hugo \
             --gc \   
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
-      - name: Upload artifact # Загрузка результата сборки в артефакты для последующего деплоя
+      - name: Upload artifact 
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
